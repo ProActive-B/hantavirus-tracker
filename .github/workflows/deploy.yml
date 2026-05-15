@@ -40,13 +40,20 @@ jobs:
           PUBLIC_ETHICALADS_PUBLISHER: ${{ vars.PUBLIC_ETHICALADS_PUBLISHER }}
 
       - name: rsync to hetzner
-        if: ${{ secrets.HETZNER_SSH_KEY != '' }}
+        # GitHub restricts the ``secrets`` context inside step-level ``if:``
+        # expressions, so we guard inside the shell instead: if the SSH key
+        # secret isn't configured, log a notice and exit 0. This lets the
+        # build verify cleanly even before Hetzner secrets are provisioned.
         env:
           HETZNER_HOST: ${{ secrets.HETZNER_HOST }}
           HETZNER_USER: ${{ secrets.HETZNER_USER }}
           HETZNER_PATH: ${{ secrets.HETZNER_PATH }}
           SSH_KEY: ${{ secrets.HETZNER_SSH_KEY }}
         run: |
+          if [[ -z "${SSH_KEY:-}" ]]; then
+            echo "::notice::HETZNER_SSH_KEY not set — skipping rsync; build artifact remains in dist/"
+            exit 0
+          fi
           mkdir -p ~/.ssh
           echo "$SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
