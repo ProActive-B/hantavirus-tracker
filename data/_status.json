@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-05-15T03:17:39.008472+00:00",
+  "total_records": 55,
+  "duration_s": 3.89,
+  "sources": [
+    {
+      "name": "seed",
+      "ok": true,
+      "records": 2,
+      "duration_s": 0.0,
+      "error": null
+    },
+    {
+      "name": "cruise_outbreak",
+      "ok": true,
+      "records": 1,
+      "duration_s": 0.65,
+      "error": null
+    },
+    {
+      "name": "who_event",
+      "ok": true,
+      "records": 3,
+      "duration_s": 0.46,
+      "error": null
+    },
+    {
+      "name": "nndss",
+      "ok": true,
+      "records": 21,
+      "duration_s": 1.39,
+      "error": null
+    },
+    {
+      "name": "argentina",
+      "ok": true,
+      "records": 1,
+      "duration_s": 0.2,
+      "error": null
+    },
+    {
+      "name": "chile",
+      "ok": true,
+      "records": 0,
+      "duration_s": 0.0,
+      "error": null
+    },
+    {
+      "name": "cdc",
+      "ok": true,
+      "records": 0,
+      "duration_s": 0.0,
+      "error": null
+    },
+    {
+      "name": "who",
+      "ok": true,
+      "records": 0,
+      "duration_s": 0.0,
+      "error": null
+    },
+    {
+      "name": "ecdc",
+      "ok": true,
+      "records": 2,
+      "duration_s": 0.11,
+      "error": null
+    },
+    {
+      "name": "paho",
+      "ok": true,
+      "records": 0,
+      "duration_s": 0.0,
+      "error": null
+    },
+    {
+      "name": "promed",
+      "ok": true,
+      "records": 0,
+      "duration_s": 0.0,
+      "error": null
+    },
+    {
+      "name": "pubmed",
+      "ok": true,
+      "records": 25,
+      "duration_s": 0.51,
+      "error": null
+    },
+    {
+      "name": "healthmap",
+      "ok": true,
+      "records": 0,
+      "duration_s": 0.0,
+      "error": null
+    }
+  ],
+  "summary": {
+    "ok": 13,
+    "failed": 0,
+    "records_total": 55
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "generated_at": "2026-05-15T03:17:38.434063+00:00",
+  "items": [
+    {
+      "id": "202e39398ab9",
+      "title": "PubMed \u2014 A pan-European assessment of multi-sector drivers of human hantavirus risk: climate, biodiversity, and socio-economic factors as key determinants.",
+      "source": "PubMed (PMID 41846028, Environ Res)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41846028/",
+      "published": "2026-06-01",
+      "summary": "A pan-European assessment of multi-sector drivers of human hantavirus risk: climate, biodiversity, and socio-economic factors as key determinants. \u2014 Guo J, Semenza JC, Ecke F et al.. Environ Res. PMID 41846028.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41846028, Environ Res). (2026). PubMed \u2014 A pan-European assessment of multi-sector drivers of human hantavirus risk: climate, biodiversity, and socio-economic factors as key determinants.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41846028/."
+    },
+    {
+      "id": "e9d70391ebed",
+      "title": "PubMed \u2014 Cruise ship outbreak spotlights a little-studied hantavirus.",
+      "source": "PubMed (PMID 42133774, Science)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42133774/",
+      "published": "2026-05-14",
+      "summary": "Cruise ship outbreak spotlights a little-studied hantavirus. \u2014 Kupferschmidt K. Science. PMID 42133774.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 42133774, Science). (2026). PubMed \u2014 Cruise ship outbreak spotlights a little-studied hantavirus.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/42133774/."
+    },
+    {
+      "id": "6e50ee96e63c",
+      "title": "Andes-virus cluster \u2014 MV Hondius cruise (South Atlantic), multi-country",
+      "source": "WHO Disease Outbreak News (2026-DON601)",
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601",
+      "published": "2026-05-13",
+      "summary": "8 confirmed and 3 probable/inconclusive Andes-virus cases on the MV Hondius, departed Ushuaia, Argentina on 2026-04-01 with stops in Antarctica, South Georgia Island, Tristan da Cunha, Saint Helena, Ascension Island. CDC met the ship at Las Palmas, Canary Islands on 2026-05-07. 3 deaths reported. Andes virus is the only hantavirus with documented person-to-person transmission.",
+      "tier": "confirmed",
+      "citation": "WHO Disease Outbreak News (2026-DON601). (2026). Andes-virus cluster \u2014 MV Hondius cruise (South Atlantic), multi-country. Retrieved 2026-05-15 from https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601."
+    },
+    {
+      "id": "23d32dbeb408",
+      "title": "ECDC \u2014 Communicable disease threats report, 9-13 May 2026, Week 20",
+      "source": "ECDC Communicable Disease Threats Report",
+      "source_url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-9-13-may-2026-week-20",
+      "published": "2026-05-13",
+      "summary": "This issue of the ECDC Communicable Disease Threats Report (CDTR) covers the period 9-13 May 2026, and includes updates on avian influenza, human cases of swine influenza, mpox, and hantavirus.",
+      "tier": "confirmed",
+      "citation": "ECDC Communicable Disease Threats Report. (2026). ECDC \u2014 Communicable disease threats report, 9-13 May 2026, Week 20. Retrieved 2026-05-15 from https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-9-13-may-2026-week-20."
+    },
+    {
+      "id": "65ed657e893e",
+      "title": "WHO DON \u2014 Hantavirus cluster, cruise ship (2026-DON600)",
+      "source": "WHO Disease Outbreak News (2026-DON600)",
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
+      "published": "2026-05-08",
+      "summary": "As of 8 May, a total of eight cases, including three deaths (case fatality ratio 38%), have been reported. Six cases have been laboratory-confirmed as hantavirus infections, with all identified as Andes virus (ANDV). Through the International Health Regulations (2005) (IHR) channel, National IHR Focal Points (NFPs) have all been informed and are supporting i",
+      "tier": "confirmed",
+      "citation": "WHO Disease Outbreak News (2026-DON600). (2026). WHO DON \u2014 Hantavirus cluster, cruise ship (2026-DON600). Retrieved 2026-05-15 from https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600."
+    },
+    {
+      "id": "886a4c967dfc",
+      "title": "Argentina \u2014 102 confirmed HPS cases, 2025-2026 season (BEN SE-17/2026)",
+      "source": "Argentina BEN SE-17/2026",
+      "source_url": "https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-17",
+      "published": "2026-05-08",
+      "summary": "Argentina BEN: 102 confirmed hantavirus cases for the 2025-2026 season through SE 17 of 2026 (frozen snapshot \u2014 live parse unavailable this run). Regional: Centro region 54% (Buenos Aires Province 43); NOA 36 cases (Salta 83%).",
+      "tier": "confirmed",
+      "citation": "Argentina BEN SE-17/2026. (2026). Argentina \u2014 102 confirmed HPS cases, 2025-2026 season (BEN SE-17/2026). Retrieved 2026-05-15 from https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-17."
+    },
+    {
+      "id": "f65d2f7079be",
+      "title": "ECDC \u2014 Communicable disease threats report, 2-8 May 2026, Week 19",
+      "source": "ECDC Communicable Disease Threats Report",
+      "source_url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-2-8-may-2026-week-19",
+      "published": "2026-05-08",
+      "summary": "This issue of the ECDC Communicable Disease Threats Report (CDTR) covers the period 2-8 May 2026, and includes updates on hantavirus, mpox, Middle East respiratory syndrome coronavirus (MERS-CoV), Salmonella Stanley, and an overview of respiratory virus epidemiology in the EU/EEA.",
+      "tier": "confirmed",
+      "citation": "ECDC Communicable Disease Threats Report. (2026). ECDC \u2014 Communicable disease threats report, 2-8 May 2026, Week 19. Retrieved 2026-05-15 from https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-2-8-may-2026-week-19."
+    },
+    {
+      "id": "c11c87ffb85f",
+      "title": "WHO DON \u2014 Hantavirus cluster, cruise ship (2026-DON599)",
+      "source": "WHO Disease Outbreak News (2026-DON599)",
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599",
+      "published": "2026-05-04",
+      "summary": "As of 4 May 2026, seven cases (two laboratory confirmed cases of hantavirus and five suspected cases) have been identified, including three deaths, one critically ill patient and three individuals reporting mild symptoms. Illness onset occurred between 6 and 28 April 2026 and was characterized by fever, gastrointestinal symptoms, rapid progression to pneumon",
+      "tier": "confirmed",
+      "citation": "WHO Disease Outbreak News (2026-DON599). (2026). WHO DON \u2014 Hantavirus cluster, cruise ship (2026-DON599). Retrieved 2026-05-15 from https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599."
+    },
+    {
+      "id": "4eda2ad5cbd1",
+      "title": "Maine \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Maine to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). Maine \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "6bd8665933d8",
+      "title": "New York \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by New York to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). New York \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "ee314ea94216",
+      "title": "Arizona \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Arizona to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). Arizona \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "41ed36c1caea",
+      "title": "Colorado \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Colorado to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). Colorado \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "18000c04cbf3",
+      "title": "Montana \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Montana to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). Montana \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "e416f0dc8b9c",
+      "title": "Nevada \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Nevada to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). Nevada \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "e8e0e3a5ed0a",
+      "title": "New Mexico \u2014 2 HPS cases (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "2 hantavirus pulmonary syndrome cases reported by New Mexico to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). New Mexico \u2014 2 HPS cases (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "b151e52c4cd6",
+      "title": "California \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by California to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). California \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "f4924ae16588",
+      "title": "Oregon \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18)",
+      "source": "CDC NNDSS Weekly Data (2026 wk 18)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2026-05-02",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Oregon to CDC NNDSS, year-to-date through MMWR week 18 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2026 wk 18). (2026). Oregon \u2014 1 HPS case (CDC NNDSS, 2026 through wk 18). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "a2fa9446e881",
+      "title": "PubMed \u2014 Genomic Analysis of Sin Nombre Virus Sequences, Northwestern United States, 2023.",
+      "source": "PubMed (PMID 42116630, Emerg Infect Dis)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42116630/",
+      "published": "2026-05-01",
+      "summary": "Genomic Analysis of Sin Nombre Virus Sequences, Northwestern United States, 2023. \u2014 Rickard G, Rivero R, Grady AC et al.. Emerg Infect Dis. PMID 42116630.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 42116630, Emerg Infect Dis). (2026). PubMed \u2014 Genomic Analysis of Sin Nombre Virus Sequences, Northwestern United States, 2023.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/42116630/."
+    },
+    {
+      "id": "1466b6c5cd06",
+      "title": "PubMed \u2014 Identification and genetic characterization of a distinct genotype of Puumala orthohantavirus in Hebei Province, China.",
+      "source": "PubMed (PMID 42113832, PLoS Negl Trop Dis)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42113832/",
+      "published": "2026-05-01",
+      "summary": "Identification and genetic characterization of a distinct genotype of Puumala orthohantavirus in Hebei Province, China. \u2014 Cai Y, Wei Y, Du G et al.. PLoS Negl Trop Dis. PMID 42113832.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 42113832, PLoS Negl Trop Dis). (2026). PubMed \u2014 Identification and genetic characterization of a distinct genotype of Puumala orthohantavirus in Hebei Province, China.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/42113832/."
+    },
+    {
+      "id": "09bfd74d2257",
+      "title": "PubMed \u2014 Temporal Dynamics of Viremia in Hemorrhagic Fever With Renal Syndrome Patients.",
+      "source": "PubMed (PMID 42104899, J Med Virol)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42104899/",
+      "published": "2026-05-01",
+      "summary": "Temporal Dynamics of Viremia in Hemorrhagic Fever With Renal Syndrome Patients. \u2014 Ma S, Zhan J, Fan C et al.. J Med Virol. PMID 42104899.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 42104899, J Med Virol). (2026). PubMed \u2014 Temporal Dynamics of Viremia in Hemorrhagic Fever With Renal Syndrome Patients.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/42104899/."
+    },
+    {
+      "id": "5c78f663a5b7",
+      "title": "PubMed \u2014 High-resolution in situ structures of hantavirus glycoprotein tetramers.",
+      "source": "PubMed (PMID 41763200, Cell)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41763200/",
+      "published": "2026-04-30",
+      "summary": "High-resolution in situ structures of hantavirus glycoprotein tetramers. \u2014 Guo L, McFadden E, Slough MM et al.. Cell. PMID 41763200.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41763200, Cell). (2026). PubMed \u2014 High-resolution in situ structures of hantavirus glycoprotein tetramers.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41763200/."
+    },
+    {
+      "id": "a74cfbc509ce",
+      "title": "PubMed \u2014 A molecular survey of orthohantaviruses in rodents across the tri-border region of China, Russia, and North Korea.",
+      "source": "PubMed (PMID 42008533, PLoS Negl Trop Dis)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42008533/",
+      "published": "2026-04-01",
+      "summary": "A molecular survey of orthohantaviruses in rodents across the tri-border region of China, Russia, and North Korea. \u2014 Peng Y, Gu Y, Li L et al.. PLoS Negl Trop Dis. PMID 42008533.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 42008533, PLoS Negl Trop Dis). (2026). PubMed \u2014 A molecular survey of orthohantaviruses in rodents across the tri-border region of China, Russia, and North Korea.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/42008533/."
+    },
+    {
+      "id": "7d0c5cd3889e",
+      "title": "PubMed \u2014 Community Assembly Reveals How Environmental Controls Over Rodent Competition Drive Deer Mouse Density and Hantavirus Infection.",
+      "source": "PubMed (PMID 41911923, Ecol Lett)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41911923/",
+      "published": "2026-04-01",
+      "summary": "Community Assembly Reveals How Environmental Controls Over Rodent Competition Drive Deer Mouse Density and Hantavirus Infection. \u2014 Luis AD, Pearson DE. Ecol Lett. PMID 41911923.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41911923, Ecol Lett). (2026). PubMed \u2014 Community Assembly Reveals How Environmental Controls Over Rodent Competition Drive Deer Mouse Density and Hantavirus Infection.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41911923/."
+    },
+    {
+      "id": "a4d38298d907",
+      "title": "PubMed \u2014 Development and application of NanoLuc-based LIPS assay for antibody detection of orthohantavirus infections and vaccine responses.",
+      "source": "PubMed (PMID 41856193, Int J Biol Macromol)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41856193/",
+      "published": "2026-04-01",
+      "summary": "Development and application of NanoLuc-based LIPS assay for antibody detection of orthohantavirus infections and vaccine responses. \u2014 Chen S, Li Y, Zhao J et al.. Int J Biol Macromol. PMID 41856193.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41856193, Int J Biol Macromol). (2026). PubMed \u2014 Development and application of NanoLuc-based LIPS assay for antibody detection of orthohantavirus infections and vaccine responses.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41856193/."
+    },
+    {
+      "id": "4958b9d82728",
+      "title": "PubMed \u2014 A Standardized workflow for Orthohantavirus production, detection, and antiviral screening.",
+      "source": "PubMed (PMID 41864935, Virol J)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41864935/",
+      "published": "2026-03-21",
+      "summary": "A Standardized workflow for Orthohantavirus production, detection, and antiviral screening. \u2014 Schwarzer-Sperber HS, Mussfeldt T, Boesner J et al.. Virol J. PMID 41864935.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41864935, Virol J). (2026). PubMed \u2014 A Standardized workflow for Orthohantavirus production, detection, and antiviral screening.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41864935/."
+    },
+    {
+      "id": "e326d2795b0d",
+      "title": "PubMed \u2014 A Fatal Case of Puumala Virus Infection with Pulmonary and Renal Syndrome in Moscow Region, Russia.",
+      "source": "PubMed (PMID 41901774, Pathogens)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41901774/",
+      "published": "2026-03-17",
+      "summary": "A Fatal Case of Puumala Virus Infection with Pulmonary and Renal Syndrome in Moscow Region, Russia. \u2014 Blinova E, Dzagurova T, Gopatsa G et al.. Pathogens. PMID 41901774.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41901774, Pathogens). (2026). PubMed \u2014 A Fatal Case of Puumala Virus Infection with Pulmonary and Renal Syndrome in Moscow Region, Russia.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41901774/."
+    },
+    {
+      "id": "0890ebb2ba76",
+      "title": "PubMed \u2014 Human Hantavirus Infections in Hungary (2018-2025): Epidemiology, Molecular Detection Across Clinical Sample Types, and Phylogenetic Analysis.",
+      "source": "PubMed (PMID 41902274, Viruses)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41902274/",
+      "published": "2026-03-16",
+      "summary": "Human Hantavirus Infections in Hungary (2018-2025): Epidemiology, Molecular Detection Across Clinical Sample Types, and Phylogenetic Analysis. \u2014 Koroknai A, Nagy A, Nagy O et al.. Viruses. PMID 41902274.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41902274, Viruses). (2026). PubMed \u2014 Human Hantavirus Infections in Hungary (2018-2025): Epidemiology, Molecular Detection Across Clinical Sample Types, and Phylogenetic Analysis.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41902274/."
+    },
+    {
+      "id": "af86cf6de3c3",
+      "title": "New Mexico \u2014 2026 HPS, 1 confirmed (NM DOH)",
+      "source": "New Mexico DOH \u2014 HPS",
+      "source_url": "https://www.nmhealth.org/about/erd/ideb/zdp/hps/",
+      "published": "2026-03-15",
+      "summary": "First confirmed New Mexico HPS case of 2026, per the New Mexico DOH HPS page. NNDSS currently shows 2 for NM 2026 (NNDSS leads in this direction). Exact onset date not stated on source page.",
+      "tier": "confirmed",
+      "citation": "New Mexico DOH \u2014 HPS. (2026). New Mexico \u2014 2026 HPS, 1 confirmed (NM DOH). Retrieved 2026-05-15 from https://www.nmhealth.org/about/erd/ideb/zdp/hps/."
+    },
+    {
+      "id": "ac7f24be6f73",
+      "title": "PubMed \u2014 Prefusion-stabilized Hantaan virus glycoprotein nucleic acid vaccine elicits potent neutralizing antibody responses via germinal center activation.",
+      "source": "PubMed (PMID 41832144, Nat Commun)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41832144/",
+      "published": "2026-03-14",
+      "summary": "Prefusion-stabilized Hantaan virus glycoprotein nucleic acid vaccine elicits potent neutralizing antibody responses via germinal center activation. \u2014 Ye W, Dang Y, Wang Y et al.. Nat Commun. PMID 41832144.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41832144, Nat Commun). (2026). PubMed \u2014 Prefusion-stabilized Hantaan virus glycoprotein nucleic acid vaccine elicits potent neutralizing antibody responses via germinal center activation.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41832144/."
+    },
+    {
+      "id": "2bab7738ab41",
+      "title": "PubMed \u2014 [Establishment of an integrin \u03b23-overexpressing cell line and its influence on Hantaan virus infection and replication].",
+      "source": "PubMed (PMID 41930440, Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41930440/",
+      "published": "2026-03-01",
+      "summary": "[Establishment of an integrin \u03b23-overexpressing cell line and its influence on Hantaan virus infection and replication]. \u2014 Shen X, Hou S, Liu Z et al.. Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi. PMID 41930440.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41930440, Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi). (2026). PubMed \u2014 [Establishment of an integrin \u03b23-overexpressing cell line and its influence on Hantaan virus infection and replication].. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41930440/."
+    },
+    {
+      "id": "72bca883eb91",
+      "title": "PubMed \u2014 Studies on prevalence of Hantavirus in small mammals in Southeast Asia: A systematic review and meta-analysis.",
+      "source": "PubMed (PMID 41818286, PLoS Negl Trop Dis)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41818286/",
+      "published": "2026-03-01",
+      "summary": "Studies on prevalence of Hantavirus in small mammals in Southeast Asia: A systematic review and meta-analysis. \u2014 Guo Z, Pan H, Wang N et al.. PLoS Negl Trop Dis. PMID 41818286.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41818286, PLoS Negl Trop Dis). (2026). PubMed \u2014 Studies on prevalence of Hantavirus in small mammals in Southeast Asia: A systematic review and meta-analysis.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41818286/."
+    },
+    {
+      "id": "eea87d1a2b29",
+      "title": "PubMed \u2014 Detection of Anti-Orthohantavirus Antibodies in Febrile Patients in India.",
+      "source": "PubMed (PMID 41437794, Microbiol Immunol)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41437794/",
+      "published": "2026-03-01",
+      "summary": "Detection of Anti-Orthohantavirus Antibodies in Febrile Patients in India. \u2014 Chandy S, Chandra RS, Sharma D et al.. Microbiol Immunol. PMID 41437794.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41437794, Microbiol Immunol). (2026). PubMed \u2014 Detection of Anti-Orthohantavirus Antibodies in Febrile Patients in India.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41437794/."
+    },
+    {
+      "id": "4b8ace634952",
+      "title": "PubMed \u2014 Remodelling of P-bodies and the cytoskeleton by Orthohantavirus puumalaense (Puumala virus).",
+      "source": "PubMed (PMID 41678361, J Gen Virol)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41678361/",
+      "published": "2026-02-01",
+      "summary": "Remodelling of P-bodies and the cytoskeleton by Orthohantavirus puumalaense (Puumala virus). \u2014 Schwarzer-Sperber HS, Petrich A, Schade M et al.. J Gen Virol. PMID 41678361.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41678361, J Gen Virol). (2026). PubMed \u2014 Remodelling of P-bodies and the cytoskeleton by Orthohantavirus puumalaense (Puumala virus).. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41678361/."
+    },
+    {
+      "id": "333158cb7352",
+      "title": "PubMed \u2014 [The role of monocytes in Hantaan virus-induced vascular endothelial injury using a co-culture model].",
+      "source": "PubMed (PMID 41620963, Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41620963/",
+      "published": "2026-02-01",
+      "summary": "[The role of monocytes in Hantaan virus-induced vascular endothelial injury using a co-culture model]. \u2014 Wang Y, Si Y, Jia T et al.. Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi. PMID 41620963.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41620963, Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi). (2026). PubMed \u2014 [The role of monocytes in Hantaan virus-induced vascular endothelial injury using a co-culture model].. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41620963/."
+    },
+    {
+      "id": "3b1c6ec21c85",
+      "title": "PubMed \u2014 Cross-binding antibodies capable of neutralising diverse hantaviruses are produced in response to Puumala virus infection.",
+      "source": "PubMed (PMID 41513540, EBioMedicine)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41513540/",
+      "published": "2026-02-01",
+      "summary": "Cross-binding antibodies capable of neutralising diverse hantaviruses are produced in response to Puumala virus infection. \u2014 Clark JJ, Hatzl S, Vasilev K et al.. EBioMedicine. PMID 41513540.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41513540, EBioMedicine). (2026). PubMed \u2014 Cross-binding antibodies capable of neutralising diverse hantaviruses are produced in response to Puumala virus infection.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41513540/."
+    },
+    {
+      "id": "4af04eb9f6c4",
+      "title": "PubMed \u2014 Prognostic factors for mortality in patients infected with New World hantaviruses: a systematic review and meta-analysis.",
+      "source": "PubMed (PMID 41592833, BMJ Open)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41592833/",
+      "published": "2026-01-27",
+      "summary": "Prognostic factors for mortality in patients infected with New World hantaviruses: a systematic review and meta-analysis. \u2014 Tortosa F, Ragusa MA, Neumann I et al.. BMJ Open. PMID 41592833.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41592833, BMJ Open). (2026). PubMed \u2014 Prognostic factors for mortality in patients infected with New World hantaviruses: a systematic review and meta-analysis.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41592833/."
+    },
+    {
+      "id": "8c3c213be745",
+      "title": "PubMed \u2014 Epidemiological study of hantavirus in Southern Brazil, 2009-2019.",
+      "source": "PubMed (PMID 41983792, Rev Inst Med Trop Sao Paulo)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41983792/",
+      "published": "2026-01-01",
+      "summary": "Epidemiological study of hantavirus in Southern Brazil, 2009-2019. \u2014 Oliveira FMG, Esteves PA, Mendes RE. Rev Inst Med Trop Sao Paulo. PMID 41983792.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41983792, Rev Inst Med Trop Sao Paulo). (2026). PubMed \u2014 Epidemiological study of hantavirus in Southern Brazil, 2009-2019.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41983792/."
+    },
+    {
+      "id": "764a8f60b490",
+      "title": "PubMed \u2014 Purifying selection constrains the evolution of Juquitiba virus in wild Oligoryzomys nigripes communities.",
+      "source": "PubMed (PMID 41557735, PLoS Pathog)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41557735/",
+      "published": "2026-01-01",
+      "summary": "Purifying selection constrains the evolution of Juquitiba virus in wild Oligoryzomys nigripes communities. \u2014 Spruill-Harrell B, Ponce-Flores A, Nnamani EI et al.. PLoS Pathog. PMID 41557735.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41557735, PLoS Pathog). (2026). PubMed \u2014 Purifying selection constrains the evolution of Juquitiba virus in wild Oligoryzomys nigripes communities.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41557735/."
+    },
+    {
+      "id": "4becfaafa477",
+      "title": "New Mexico \u2014 2025 HPS, 7 confirmed (NM DOH)",
+      "source": "New Mexico DOH \u2014 HPS",
+      "source_url": "https://www.nmhealth.org/about/erd/ideb/zdp/hps/",
+      "published": "2025-12-31",
+      "summary": "Seven confirmed HPS cases across Santa Fe, Taos, McKinley, and Bernalillo counties (the Bernalillo case was travel-associated). One reported death (Santa Fe County, 2025-03-07). State-DOH figure; the federal NNDSS aggregate currently shows 2 for the same state-year (state DOH and NNDSS use different update cadences and case definitions).",
+      "tier": "confirmed",
+      "citation": "New Mexico DOH \u2014 HPS. (2025). New Mexico \u2014 2025 HPS, 7 confirmed (NM DOH). Retrieved 2026-05-15 from https://www.nmhealth.org/about/erd/ideb/zdp/hps/."
+    },
+    {
+      "id": "902b0bbc13cb",
+      "title": "Maine \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Maine to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Maine \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "84e541b8500a",
+      "title": "Illinois \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Illinois to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Illinois \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "b936a7ff1425",
+      "title": "West Virginia \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by West Virginia to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). West Virginia \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "82c33c8af116",
+      "title": "Kentucky \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Kentucky to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Kentucky \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "5b0d642430a2",
+      "title": "Arizona \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Arizona to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Arizona \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "7722306b38f4",
+      "title": "Colorado \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Colorado to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Colorado \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "a8d8a6d4060e",
+      "title": "Idaho \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Idaho to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Idaho \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "fb99a5907d81",
+      "title": "Nevada \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Nevada to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Nevada \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "198be0bdd2b6",
+      "title": "New Mexico \u2014 2 HPS cases (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "2 hantavirus pulmonary syndrome cases reported by New Mexico to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). New Mexico \u2014 2 HPS cases (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "0e1616aff044",
+      "title": "California \u2014 2 HPS cases (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "2 hantavirus pulmonary syndrome cases reported by California to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). California \u2014 2 HPS cases (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "b47febf2ce88",
+      "title": "Oregon \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Oregon to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Oregon \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "054be348aa10",
+      "title": "Washington \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53)",
+      "source": "CDC NNDSS Weekly Data (2025 wk 53)",
+      "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+      "published": "2025-12-31",
+      "summary": "1 hantavirus pulmonary syndrome case reported by Washington to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy.",
+      "tier": "confirmed",
+      "citation": "CDC NNDSS Weekly Data (2025 wk 53). (2025). Washington \u2014 1 HPS case (CDC NNDSS, 2025 through wk 53). Retrieved 2026-05-15 from https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc."
+    },
+    {
+      "id": "dc2fe53568b3",
+      "title": "PubMed \u2014 Glycosylated IgG antibodies contribute to the recovery of haemorrhagic fever with renal syndrome patients.",
+      "source": "PubMed (PMID 41460167, Elife)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41460167/",
+      "published": "2025-12-29",
+      "summary": "Glycosylated IgG antibodies contribute to the recovery of haemorrhagic fever with renal syndrome patients. \u2014 Quan C, Wang L, Gao J et al.. Elife. PMID 41460167.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41460167, Elife). (2025). PubMed \u2014 Glycosylated IgG antibodies contribute to the recovery of haemorrhagic fever with renal syndrome patients.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41460167/."
+    },
+    {
+      "id": "a83f691e3814",
+      "title": "PubMed \u2014 The first identification of Orthohantavirus dobravaense, Kurkino virus (Hantaviridae: Orthohantavirus) in the Volga Federal District.",
+      "source": "PubMed (PMID 41570236, Vopr Virusol)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41570236/",
+      "published": "2025-12-28",
+      "summary": "The first identification of Orthohantavirus dobravaense, Kurkino virus (Hantaviridae: Orthohantavirus) in the Volga Federal District. \u2014 Nasyrov TR, Elboeva PI, Martynova EV et al.. Vopr Virusol. PMID 41570236.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41570236, Vopr Virusol). (2025). PubMed \u2014 The first identification of Orthohantavirus dobravaense, Kurkino virus (Hantaviridae: Orthohantavirus) in the Volga Federal District.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41570236/."
+    },
+    {
+      "id": "50a0fca15030",
+      "title": "PubMed \u2014 First Molecular Detection of Orthohantaviruses (Orthohantavirus hantanense and O. jejuense) in Trombiculid Mites from Wild Rodents in the Republic of Korea.",
+      "source": "PubMed (PMID 41471215, Pathogens)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41471215/",
+      "published": "2025-12-09",
+      "summary": "First Molecular Detection of Orthohantaviruses (Orthohantavirus hantanense and O. jejuense) in Trombiculid Mites from Wild Rodents in the Republic of Korea. \u2014 Kim SY, Lee HS, Yoon H et al.. Pathogens. PMID 41471215.",
+      "tier": "signal",
+      "citation": "PubMed (PMID 41471215, Pathogens). (2025). PubMed \u2014 First Molecular Detection of Orthohantaviruses (Orthohantavirus hantanense and O. jejuense) in Trombiculid Mites from Wild Rodents in the Republic of Korea.. Retrieved 2026-05-15 from https://pubmed.ncbi.nlm.nih.gov/41471215/."
+    }
+  ]
+}

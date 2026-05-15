@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-05-15T03:17:39.008124+00:00",
+  "current": {
+    "label": "2026 Andes-virus cruise cluster",
+    "as_of": "2026-05-13",
+    "today": "2026-05-14",
+    "days_since_source_update": 1,
+    "parsed_from_live_source": true,
+    "confirmed_cases": 8,
+    "suspected_cases": 3,
+    "total_cases": 11,
+    "deaths": 3,
+    "exposed_population": 147,
+    "passengers": 86,
+    "crew": 61,
+    "departure": {
+      "port": "Ushuaia, Argentina",
+      "date": "2026-04-01"
+    },
+    "ports_of_call": [
+      "Antarctica",
+      "South Georgia Island",
+      "Tristan da Cunha",
+      "Saint Helena",
+      "Ascension Island"
+    ],
+    "vessel_met": {
+      "location": "Las Palmas, Canary Islands",
+      "date": "2026-05-07"
+    },
+    "days_since_departure": 43,
+    "voyage_duration_to_disclosure": 42,
+    "attack_rate_pct": 7.48,
+    "cfr_pct": 27.3,
+    "virus": "Andes virus",
+    "source_name": "CDC HAN 528",
+    "source_url": "https://www.cdc.gov/han/php/notices/han00528.html"
+  },
+  "diamond_princess": {
+    "label": "Diamond Princess (SARS-CoV-2, 2020)",
+    "exposed_population": 3711,
+    "passengers": 2666,
+    "crew": 1045,
+    "confirmed_cases": 712,
+    "deaths": 14,
+    "attack_rate_pct": 19.2,
+    "cfr_pct": 2.0,
+    "date_range": "2020-02-03 \u2013 2020-02-27 (vessel quarantine period)",
+    "source_name": "CDC MMWR 69/12",
+    "source_url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6912e3.htm"
+  },
+  "comparison_rows": [
+    {
+      "metric": "Exposed population",
+      "current": "147 (86 passengers, 61 crew)",
+      "diamond_princess": "3711 (2666 passengers, 1045 crew)"
+    },
+    {
+      "metric": "Confirmed cases",
+      "current": "8",
+      "diamond_princess": "712"
+    },
+    {
+      "metric": "Suspected / additional",
+      "current": "3",
+      "diamond_princess": "n/a (all PCR-tested)"
+    },
+    {
+      "metric": "Attack rate",
+      "current": "7.48%",
+      "diamond_princess": "19.2%"
+    },
+    {
+      "metric": "Deaths",
+      "current": "3",
+      "diamond_princess": "14"
+    },
+    {
+      "metric": "Case fatality rate",
+      "current": "27.3%",
+      "diamond_princess": "2.0%"
+    },
+    {
+      "metric": "Voyage duration to public disclosure",
+      "current": "42 days (departure \u2192 HAN as-of)",
+      "diamond_princess": "~24 days (quarantine onboard)"
+    },
+    {
+      "metric": "Primary transmission mode",
+      "current": "Person-to-person respiratory droplet/aerosol (Andes virus unique)",
+      "diamond_princess": "Respiratory aerosol; shared HVAC implicated"
+    }
+  ],
+  "methodology": {
+    "andes_virus_transmission": "Andes virus is the only hantavirus with documented sustained person-to-person transmission. Family-cluster and healthcare-worker chains have been reported in Argentina and Chile since the 1990s. Transmission is believed to occur via respiratory droplet/aerosol during close contact, with secondary attack rates highest among household contacts of symptomatic index cases. Most other hantaviruses are strictly zoonotic (inhalation of aerosolized rodent excreta) and do not transmit between humans.",
+    "covid_transmission": "SARS-CoV-2 transmits efficiently via respiratory aerosols and droplets, with substantial transmission from pre-symptomatic and asymptomatic carriers. In closed indoor environments, shared ventilation, prolonged exposure, and dense occupancy amplify the basic reproduction number.",
+    "why_cruise_ships_amplify": "Cruise ships combine prolonged confinement, shared HVAC, communal dining and entertainment, and a population mixing across ages and nationalities \u2014 the textbook risk profile for respiratory-virus spread. For a virus with even rare person-to-person capability, a multi-week ocean voyage creates the time window for incubation chains to develop and saturate close-contact networks.",
+    "key_difference": "SARS-CoV-2 on Diamond Princess produced a ~19% attack rate over 24 days of cohabitation \u2014 characteristic of a highly transmissible respiratory virus. The 2026 Andes-virus cluster is materially smaller in attack rate (single-digit percent) but with a far higher case-fatality rate (~38% historical for HPS vs ~2% for SARS-CoV-2 on Diamond Princess). The comparison is not 'which is worse' \u2014 they are different shapes of risk."
+  },
+  "sources": [
+    {
+      "name": "CDC HAN 528",
+      "url": "https://www.cdc.gov/han/php/notices/han00528.html"
+    },
+    {
+      "name": "CDC MMWR 69/12 (Diamond Princess)",
+      "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6912e3.htm"
+    },
+    {
+      "name": "CDC hantavirus situation summary",
+      "url": "https://www.cdc.gov/hantavirus/situation-summary/index.html"
+    }
+  ]
+}
