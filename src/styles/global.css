@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* MapLibre baseline styles. We can't @import inside @tailwind context without
+   bundling — Astro pulls maplibre-gl/dist/maplibre-gl.css from JS-side anyway,
+   so this block is just a safety net for typography around the map. */
+.maplibregl-popup-content {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 0.5rem;
+}
+
+.confidence-dot {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 9999px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+.confidence-dot.confirmed { background: #b91c1c; }
+.confidence-dot.probable  { background: #d97706; }
+.confidence-dot.signal    { background: #475569; }

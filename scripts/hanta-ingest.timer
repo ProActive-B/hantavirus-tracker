@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily hantavirus tracker ingest at 06:17 UTC
+
+[Timer]
+OnCalendar=*-*-* 06:17:00 UTC
+Persistent=true
+RandomizedDelaySec=2min
+
+[Install]
+WantedBy=timers.target

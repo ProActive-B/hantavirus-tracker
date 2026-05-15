@@ -1,0 +1,25 @@
+# systemd service for daily hantavirus ingest. Pair with hanta-ingest.timer.
+# Install:
+#   sudo cp scripts/hanta-ingest.service scripts/hanta-ingest.timer /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now hanta-ingest.timer
+# Verify:
+#   systemctl list-timers hanta-ingest.timer
+#   journalctl -u hanta-ingest.service -n 50
+
+[Unit]
+Description=Hantavirus tracker — daily data ingest
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=%i
+Group=%i
+WorkingDirectory=%h/hantavirus
+ExecStart=%h/hantavirus/scripts/cron-ingest.sh
+TimeoutStartSec=15min
+Nice=10
+
+[Install]
+WantedBy=multi-user.target

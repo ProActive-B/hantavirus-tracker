@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install*)",
+      "Bash(pnpm dev*)",
+      "Bash(pnpm build*)",
+      "Bash(pnpm ingest*)",
+      "Bash(pnpm check*)",
+      "Bash(uv sync*)",
+      "Bash(uv run*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add data/*)",
+      "Bash(rg*)",
+      "Bash(fd*)",
+      "Bash(jq*)",
+      "Bash(python3 -m json.tool*)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(rsync* --delete*)",
+      "Bash(rm -rf*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          { "type": "command", "command": ".claude/hooks/validate-geojson.sh" }
+        ]
+      }
+    ]
+  }
+}

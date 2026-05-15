@@ -1,0 +1,158 @@
+---
+import Base from '../layouts/Base.astro';
+import status from '../../data/_status.json';
+
+const refresh = `${new Date(status.generated_at).toISOString().slice(0, 16).replace('T', ' ')} UTC`;
+const sources = (status.sources as Array<{name: string; ok: boolean; records: number; duration_s: number; error: string | null}>).slice().sort((a, b) => b.records - a.records);
+---
+<Base title="Methodology" active="about">
+  <article class="prose prose-slate max-w-3xl">
+    <h1>Methodology</h1>
+    <p>
+      This tracker aggregates hantavirus reports from public-health authorities, outbreak
+      surveillance networks, and peer-reviewed channels. Every datapoint on the map carries a
+      <strong>confidence tier</strong>, a <strong>source</strong>, and a <strong>last-updated</strong>
+      timestamp. We never paraphrase numbers — case and death counts are taken verbatim from the
+      cited source.
+    </p>
+
+    <h2 id="tiers">Confidence tiers</h2>
+    <ul>
+      <li><strong>Confirmed</strong> — published by a recognised public-health authority
+        (CDC, WHO Disease Outbreak News, ECDC, PAHO, national or state ministry of health).
+        Lab-confirmed where stated by the source.</li>
+      <li><strong>Probable</strong> — outbreak investigation underway with lab-pending cases,
+        or confirmed by a health authority but provisional in the source's own language.</li>
+      <li><strong>Signal</strong> — picked up from <em>ProMED-mail</em> or <em>HealthMap</em>
+        before authority confirmation. Useful for early awareness; treat as unconfirmed until
+        upgraded.</li>
+    </ul>
+
+    <h2>US data granularity</h2>
+    <p>
+      CDC releases hantavirus surveillance data at the state level only — county-level
+      breakdowns are withheld to protect patient privacy (small N). US points on the map are
+      therefore placed at state centroids, not specific addresses. Outside the US, granularity
+      depends on the reporting authority.
+    </p>
+
+    <h2>Update cadence</h2>
+    <p>
+      A GitHub Actions workflow runs the ingest pipeline daily at 06:17 UTC. It fetches each
+      source, normalizes to a common schema, and commits the resulting GeoJSON into this repo.
+      The site is then rebuilt and deployed. Last build date is shown in the footer.
+    </p>
+
+    <h2>Cruise-outbreak analysis (daily-refreshing)</h2>
+    <p>
+      The cluster's figures come from whichever of two authorities published most
+      recently: <strong>CDC HAN 528</strong> or the latest WHO Disease Outbreak News
+      linked from the WHO emergency-event page <code>2026-E000227</code> (currently
+      DON601, 13 May 2026). Each ingest run parses both, takes the freshest, and
+      computes attack rate, CFR, days-since-departure, and days-since-source-update.
+      If both parses fail, the section falls back to the verified 2026-05-08 snapshot
+      — never to fabricated data — and the page surfaces a <code>Source live-parsed:
+      yes/no</code> indicator plus an <code>as of (N days ago)</code> staleness badge
+      so readers can see which mode they're looking at.
+    </p>
+
+    <h2>What we don't show</h2>
+    <p>
+      During the 2026-05-12 provenance audit, several state-level 2025 aggregates were
+      removed because they originated from search-result snippets rather than from
+      citable state ministry-of-health bulletins. We'd rather show three well-sourced
+      records than five with a guess in the middle. State aggregates re-enter the
+      dataset only when accompanied by a citable bulletin URL.
+    </p>
+
+    <h2 id="source-health">Source health (last ingest)</h2>
+    <p class="text-sm text-ink/70">
+      Ingest last ran <strong>{refresh}</strong> — <strong>{status.summary.ok}/{status.summary.ok + status.summary.failed}</strong>
+      sources reporting, <strong>{status.summary.records_total}</strong> raw records
+      (after dedup: {status.total_records}). Total run time: {status.duration_s}s.
+    </p>
+    <div class="not-prose overflow-x-auto rounded-lg border border-ink/10 bg-white">
+      <table class="w-full text-sm">
+        <thead class="bg-paper text-ink/70">
+          <tr>
+            <th class="px-3 py-2 text-left font-semibold">Source</th>
+            <th class="px-3 py-2 text-right font-semibold">Records</th>
+            <th class="px-3 py-2 text-left font-semibold">Status</th>
+            <th class="px-3 py-2 text-right font-semibold">Time</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-ink/5">
+          {sources.map((s) => (
+            <tr>
+              <td class="px-3 py-1.5"><code>{s.name}</code></td>
+              <td class="px-3 py-1.5 text-right tabular-nums">{s.records}</td>
+              <td class="px-3 py-1.5">
+                {s.ok
+                  ? <span class="text-emerald-700">ok</span>
+                  : <span class="text-rose-700">{s.error ?? 'fail'}</span>}
+              </td>
+              <td class="px-3 py-1.5 text-right tabular-nums text-ink/60">{s.duration_s}s</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-xs text-ink/50">
+      Sources marked <code>ok</code> with <code>0</code> records returned cleanly but had no
+      hantavirus content this run (e.g., a weekly bulletin that didn't mention it).
+      Stubs (Chile, ProMED, HealthMap, legacy WHO/CDC HAN listings) show 0 by design —
+      see notes below.
+    </p>
+
+    <h2 id="sources">Active sources</h2>
+    <ul>
+      <li><strong>CDC NNDSS</strong> via the data.cdc.gov SODA API (dataset
+        <code>x9gk-5huc</code>) — weekly per-state HPS case counts for the
+        current and previous year. This is the consistent federal aggregator
+        and serves the US map markers.</li>
+      <li><strong>CDC HAN 528</strong> via direct HTML scrape — primary source
+        for the cruise cluster figures, consulted alongside WHO DON each run.</li>
+      <li><strong>WHO event page</strong> <code>2026-E000227</code> + linked
+        Disease Outbreak News articles (DON599 / DON600 / DON601 and any future
+        DONs) — alternative authority for the cruise cluster; whichever of CDC
+        or WHO is fresher provides the canonical figures.</li>
+      <li><strong>ECDC Communicable Disease Threats Report</strong> via the
+        <code>/en/taxonomy/term/1505/feed</code> RSS — weekly EU-wide threat
+        bulletins that mention hantavirus.</li>
+      <li><strong>Argentina BEN</strong> (Boletín Epidemiológico Nacional) —
+        the Andes-virus endemic zone. We track the season-cumulative count
+        published by the Ministerio de Salud.</li>
+      <li><strong>New Mexico DOH</strong> — state-DOH page for NM, kept as a
+        secondary citation when state-level figures diverge from federal NNDSS.</li>
+      <li><strong>PubMed</strong> via NCBI E-utilities — academic signal layer
+        (recent peer-reviewed papers indexed under the hantavirus MeSH term).</li>
+    </ul>
+
+    <h2>Sources we'd like but can't currently use</h2>
+    <ul>
+      <li><strong>ProMED-mail</strong> — discontinued its free public RSS in
+        the 2023–24 funding crisis. Subscription-only.</li>
+      <li><strong>Chile MINSAL</strong> — protected by Cloudflare's WAF;
+        scripted access returns 403. Would require a headless browser.</li>
+      <li><strong>WHO Disease Outbreak News listing</strong> — the legacy RSS
+        endpoint is gone; the listing page is now a client-rendered SPA. We
+        currently follow only the linked DONs from the cluster's emergency-event
+        page, which captures the cruise cluster but not unrelated DONs.</li>
+      <li><strong>HealthMap</strong> — public API discontinued.</li>
+    </ul>
+
+    <h2>What this tracker is not</h2>
+    <ul>
+      <li>Not medical advice. If you suspect exposure, contact a clinician.</li>
+      <li>Not authoritative-of-record — defer to your national or state health authority.</li>
+      <li>Not real-time — there's a daily ingest cadence and authorities themselves report
+        with delay.</li>
+    </ul>
+
+    <h2>Corrections</h2>
+    <p>
+      If you spot a wrong count, missing report, or stale entry, please open an issue on the
+      project's GitHub repository.
+    </p>
+  </article>
+</Base>

@@ -1,0 +1,34 @@
+---
+interface Props {
+  active: 'map' | 'compare' | 'feeds' | 'about';
+}
+const { active } = Astro.props;
+
+const items: { id: Props['active']; href: string; label: string }[] = [
+  { id: 'map',     href: '/',         label: 'Map' },
+  { id: 'compare', href: '/compare',  label: 'Compare vs COVID' },
+  { id: 'feeds',   href: '/feeds',    label: 'Feeds' },
+  { id: 'about',   href: '/about',    label: 'Methodology' },
+];
+---
+<header class="border-b border-ink/10 bg-paper/95 backdrop-blur sticky top-0 z-30">
+  <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+    <a href="/" class="flex items-center gap-2 font-semibold tracking-tight">
+      <span class="inline-block h-3 w-3 rounded-full bg-confirmed"></span>
+      <span>Hantavirus Tracker</span>
+    </a>
+    <nav class="flex items-center gap-1 sm:gap-2 text-sm">
+      {items.map(({ id, href, label }) => (
+        <a
+          href={href}
+          class:list={[
+            'rounded-md px-2.5 py-1.5 transition',
+            active === id
+              ? 'bg-ink text-paper'
+              : 'text-ink/70 hover:bg-ink/5 hover:text-ink',
+          ]}
+        >{label}</a>
+      ))}
+    </nav>
+  </div>
+</header>

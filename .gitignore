@@ -1,0 +1,29 @@
+node_modules
+.astro
+dist
+.env
+.env.*
+!.env.example
+
+# python / uv
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode
+.idea
+
+# data scratch (raw fetches kept locally, not committed)
+data/raw/*
+!data/raw/.gitkeep
+
+# claude audit (per-user, never committed)
+.claude/audit
+.claude/settings.local.json

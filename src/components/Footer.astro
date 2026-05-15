@@ -1,0 +1,34 @@
+---
+import status from '../../data/_status.json';
+
+const generated = new Date(status.generated_at);
+// Format as YYYY-MM-DD HH:MM UTC for unambiguous freshness
+const refresh = `${generated.toISOString().slice(0, 16).replace('T', ' ')} UTC`;
+
+const ok = status.summary.ok;
+const failed = status.summary.failed;
+const total = ok + failed;
+const healthState =
+  failed === 0 ? 'all-ok' : failed > total / 3 ? 'degraded' : 'partial';
+const dotColor =
+  healthState === 'all-ok'
+    ? 'bg-emerald-500'
+    : healthState === 'partial'
+      ? 'bg-amber-500'
+      : 'bg-rose-500';
+---
+<footer class="mt-12 border-t border-ink/10 bg-white">
+  <div class="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 text-xs text-ink/60 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+    <div>Hantavirus Tracker · public health awareness · not medical advice.</div>
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+      <span class="inline-flex items-center gap-1.5" title={`${ok}/${total} sources reporting`}>
+        <span class={`inline-block h-2 w-2 rounded-full ${dotColor}`}></span>
+        <span>Last data refresh: <strong>{refresh}</strong></span>
+      </span>
+      <span>{ok}/{total} sources ok</span>
+      <a class="hover:text-ink" href="/about#sources">methodology</a>
+      <a class="hover:text-ink" href="/rss.xml">rss</a>
+      <a class="hover:text-ink" href="https://github.com/">source</a>
+    </div>
+  </div>
+</footer>

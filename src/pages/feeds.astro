@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import feed from '../../data/feed.json';
+
+const items = feed.items as Array<{
+  id: string;
+  title: string;
+  source: string;
+  source_url: string;
+  published: string;
+  summary: string;
+  tier: 'confirmed' | 'probable' | 'signal';
+  citation: string;
+}>;
+---
+<Base title="Reports & citations" active="feeds">
+  <header class="mb-6 flex items-end justify-between gap-4">
+    <div>
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Reports & citations</h1>
+      <p class="mt-1 max-w-2xl text-sm text-ink/70">
+        Every report ingested by this tracker, in reverse-chronological order, with a
+        copy-ready citation block. Use these when writing or quoting.
+      </p>
+    </div>
+    <a href="/rss.xml" class="rounded-md border border-ink/15 bg-white px-3 py-1.5 text-xs hover:bg-paper">RSS</a>
+  </header>
+
+  <ul class="space-y-4">
+    {items.map((it) => (
+      <li class="rounded-lg border border-ink/10 bg-white p-5">
+        <div class="flex items-center gap-2 text-xs text-ink/60">
+          <span class={`confidence-dot ${it.tier}`}></span>
+          <span class="uppercase tracking-wide">{it.tier}</span>
+          <span aria-hidden>·</span>
+          <span>{it.source}</span>
+          <span aria-hidden>·</span>
+          <time datetime={it.published}>{it.published}</time>
+        </div>
+        <h2 class="mt-1 text-lg font-semibold leading-snug">
+          <a href={it.source_url} target="_blank" rel="noopener" class="hover:underline">{it.title}</a>
+        </h2>
+        <p class="mt-1 text-sm text-ink/80">{it.summary}</p>
+        <details class="mt-3 text-xs">
+          <summary class="cursor-pointer text-ink/60 hover:text-ink">Copy citation</summary>
+          <pre class="mt-2 overflow-x-auto rounded bg-paper p-3 text-[11px] leading-snug">{it.citation}</pre>
+        </details>
+      </li>
+    ))}
+  </ul>
+</Base>

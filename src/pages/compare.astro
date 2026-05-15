@@ -1,0 +1,176 @@
+---
+import Base from '../layouts/Base.astro';
+import comparison from '../../data/comparison.json';
+import cruise from '../../data/cruise_analysis.json';
+
+const rows = comparison.rows as Array<{
+  metric: string;
+  hantavirus: string;
+  covid19: string;
+  note?: string;
+}>;
+
+const c = cruise.current as any;
+const dp = cruise.diamond_princess as any;
+const cruiseRows = cruise.comparison_rows as Array<{
+  metric: string;
+  current: string;
+  diamond_princess: string;
+}>;
+const m = cruise.methodology as Record<string, string>;
+const sources = cruise.sources as Array<{ name: string; url: string }>;
+---
+<Base title="Hantavirus vs COVID-19" active="compare">
+  <header class="mb-6">
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Hantavirus vs COVID-19</h1>
+    <p class="mt-1 max-w-3xl text-sm text-ink/70">
+      Both are respiratory viral diseases that have caused outbreaks of public-health
+      significance, but the comparison stops fast. This page sits the two side-by-side
+      on the dimensions that matter for risk perception: how it spreads, how lethal it
+      is, how widely it reaches.
+    </p>
+  </header>
+
+  <div class="overflow-x-auto rounded-lg border border-ink/10 bg-white">
+    <table class="w-full text-sm">
+      <thead class="bg-paper text-ink/70">
+        <tr>
+          <th class="px-4 py-3 text-left font-semibold">Dimension</th>
+          <th class="px-4 py-3 text-left font-semibold">Hantavirus (HPS)</th>
+          <th class="px-4 py-3 text-left font-semibold">COVID-19 (SARS-CoV-2)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-ink/5">
+        {rows.map((r) => (
+          <tr>
+            <th class="bg-paper/40 px-4 py-3 text-left align-top font-medium">{r.metric}</th>
+            <td class="px-4 py-3 align-top">
+              <div>{r.hantavirus}</div>
+              {r.note && <div class="mt-1 text-xs text-ink/50">{r.note}</div>}
+            </td>
+            <td class="px-4 py-3 align-top">{r.covid19}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <section class="mt-12">
+    <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h2 class="text-xl font-bold tracking-tight">Cruise-ship outbreak analysis</h2>
+        <p class="mt-1 max-w-3xl text-sm text-ink/70">
+          The 2026 South Atlantic Andes-virus cluster, set against the canonical
+          modern cruise-ship respiratory outbreak — Diamond Princess (SARS-CoV-2,
+          February 2020). Live figures refreshed daily from CDC HAN 528;
+          comparison figures are historical.
+        </p>
+      </div>
+      <div class="rounded-md bg-white px-3 py-2 text-xs text-ink/70 ring-1 ring-ink/10">
+        <div><span class="text-ink/50">HAN as of</span> <strong>{c.as_of}</strong>{c.days_since_source_update > 0 ? ` (${c.days_since_source_update} days ago)` : ''}</div>
+        <div class="mt-0.5">
+          <span class="text-ink/50">Source live-parsed:</span>{' '}
+          <strong>{c.parsed_from_live_source ? 'yes' : 'no (using last verified HAN snapshot)'}</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-3 md:grid-cols-4">
+      <div class="rounded-md bg-white p-3 ring-1 ring-ink/10">
+        <div class="text-xs text-ink/60">Confirmed cases</div>
+        <div class="text-2xl font-semibold">{c.confirmed_cases}</div>
+        <div class="text-xs text-ink/50">+ {c.suspected_cases} suspected</div>
+      </div>
+      <div class="rounded-md bg-white p-3 ring-1 ring-ink/10">
+        <div class="text-xs text-ink/60">Attack rate</div>
+        <div class="text-2xl font-semibold">{c.attack_rate_pct}%</div>
+        <div class="text-xs text-ink/50">of {c.exposed_population} exposed</div>
+      </div>
+      <div class="rounded-md bg-white p-3 ring-1 ring-ink/10">
+        <div class="text-xs text-ink/60">Deaths</div>
+        <div class="text-2xl font-semibold">{c.deaths}</div>
+        <div class="text-xs text-ink/50">CFR {c.cfr_pct}%</div>
+      </div>
+      <div class="rounded-md bg-white p-3 ring-1 ring-ink/10">
+        <div class="text-xs text-ink/60">Days since departure</div>
+        <div class="text-2xl font-semibold">{c.days_since_departure}</div>
+        <div class="text-xs text-ink/50">from {c.departure.port}</div>
+      </div>
+    </div>
+
+    <div class="mt-6 overflow-x-auto rounded-lg border border-ink/10 bg-white">
+      <table class="w-full text-sm">
+        <thead class="bg-paper text-ink/70">
+          <tr>
+            <th class="px-4 py-3 text-left font-semibold">Metric</th>
+            <th class="px-4 py-3 text-left font-semibold">{c.label}</th>
+            <th class="px-4 py-3 text-left font-semibold">{dp.label}</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-ink/5">
+          {cruiseRows.map((r) => (
+            <tr>
+              <th class="bg-paper/40 px-4 py-3 text-left align-top font-medium">{r.metric}</th>
+              <td class="px-4 py-3 align-top">{r.current}</td>
+              <td class="px-4 py-3 align-top">{r.diamond_princess}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
+      <article class="rounded-lg border border-ink/10 bg-white p-5">
+        <h3 class="text-base font-semibold">How Andes virus spreads on a closed vessel</h3>
+        <p class="mt-2 text-sm text-ink/80">{m.andes_virus_transmission}</p>
+      </article>
+      <article class="rounded-lg border border-ink/10 bg-white p-5">
+        <h3 class="text-base font-semibold">How SARS-CoV-2 spread on Diamond Princess</h3>
+        <p class="mt-2 text-sm text-ink/80">{m.covid_transmission}</p>
+      </article>
+      <article class="rounded-lg border border-ink/10 bg-white p-5 lg:col-span-2">
+        <h3 class="text-base font-semibold">Why cruise ships amplify respiratory outbreaks</h3>
+        <p class="mt-2 text-sm text-ink/80">{m.why_cruise_ships_amplify}</p>
+      </article>
+      <article class="rounded-lg border border-ink/10 bg-white p-5 lg:col-span-2">
+        <h3 class="text-base font-semibold">Key difference</h3>
+        <p class="mt-2 text-sm text-ink/80">{m.key_difference}</p>
+      </article>
+    </div>
+
+    <div class="mt-6 rounded-lg border border-ink/10 bg-paper/60 p-4 text-xs text-ink/70">
+      <span class="font-semibold text-ink/80">Sources:</span>
+      <ul class="mt-2 space-y-1">
+        {sources.map((s) => (
+          <li>
+            <a class="text-accent underline decoration-dotted hover:text-accent/80" href={s.url} target="_blank" rel="noopener">
+              {s.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
+    <article class="rounded-lg border border-ink/10 bg-white p-5">
+      <h2 class="text-base font-semibold">Why people conflate the two</h2>
+      <p class="mt-2 text-sm text-ink/80">
+        Both viruses can cause severe lung disease, both emerged into broad public awareness
+        through dramatic clusters, and both produce flu-like prodromes. The similarities end at
+        the airway — hantaviruses don't sustain human-to-human transmission in nearly all
+        documented contexts, and there's no equivalent of the pandemic-scale spread COVID-19
+        produced.
+      </p>
+    </article>
+    <article class="rounded-lg border border-ink/10 bg-white p-5">
+      <h2 class="text-base font-semibold">Why hantavirus still warrants tracking</h2>
+      <p class="mt-2 text-sm text-ink/80">
+        Case fatality is high (~38% for HPS), there is no licensed vaccine, and the Andes-virus
+        subtype demonstrates that person-to-person spread in closed environments is possible.
+        Climate change is also expanding the geographic range of reservoir rodents, which
+        epidemiologists expect to slowly enlarge the at-risk human population.
+      </p>
+    </article>
+  </section>
+</Base>

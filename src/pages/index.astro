@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import MapApp from '../components/MapApp.astro';
+import AdSlot from '../components/AdSlot.astro';
+
+import overview from '../../data/overview.json';
+---
+<Base title="Live incident map" active="map">
+  <header class="mb-4">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Hantavirus — live incident map</h1>
+        <p class="mt-1 max-w-2xl text-sm text-ink/70">
+          Tracking hantavirus pulmonary syndrome cases and outbreak signals worldwide.
+          Tiered confidence: <em>confirmed</em> from health-authority bulletins,
+          <em>signal</em> from ProMED-mail and HealthMap.
+        </p>
+      </div>
+      <dl class="grid grid-cols-3 gap-3 text-xs">
+        <div class="rounded-md bg-white px-3 py-2 ring-1 ring-ink/10">
+          <dt class="text-ink/60">Active incidents</dt>
+          <dd class="text-lg font-semibold">{overview.active}</dd>
+        </div>
+        <div class="rounded-md bg-white px-3 py-2 ring-1 ring-ink/10">
+          <dt class="text-ink/60">Cases (90d)</dt>
+          <dd class="text-lg font-semibold">{overview.cases_90d}</dd>
+        </div>
+        <div class="rounded-md bg-white px-3 py-2 ring-1 ring-ink/10">
+          <dt class="text-ink/60">Deaths (90d)</dt>
+          <dd class="text-lg font-semibold">{overview.deaths_90d}</dd>
+        </div>
+      </dl>
+    </div>
+  </header>
+
+  <MapApp />
+
+  <section class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
+    <div class="lg:col-span-2 rounded-lg border border-ink/10 bg-white p-5">
+      <h2 class="text-lg font-semibold">Spread dynamics</h2>
+      <p class="mt-1 text-sm text-ink/70">
+        Hantaviruses are primarily zoonotic — rodents (deer mice, rats) shed virus in urine,
+        droppings, and saliva. Aerosolized particles infect humans. Person-to-person spread is
+        rare and to date confirmed only for the <strong>Andes virus</strong> in South America.
+        That makes outbreaks like the {overview.lead_outbreak.title} significant: a sustained
+        cluster on a closed environment (cruise ship) is the textbook scenario where Andes
+        virus exhibits its unusual human-to-human transmissibility.
+      </p>
+      <ul class="mt-3 grid grid-cols-1 gap-2 text-sm sm:grid-cols-2">
+        <li class="rounded bg-paper px-3 py-2">
+          <span class="text-ink/60">R₀ (typical, zoonotic): </span><strong>&lt; 1</strong>
+        </li>
+        <li class="rounded bg-paper px-3 py-2">
+          <span class="text-ink/60">Incubation: </span><strong>4–42 days</strong>
+        </li>
+        <li class="rounded bg-paper px-3 py-2">
+          <span class="text-ink/60">CFR (HPS): </span><strong>~38%</strong>
+        </li>
+        <li class="rounded bg-paper px-3 py-2">
+          <span class="text-ink/60">Vaccine: </span><strong>none licensed</strong>
+        </li>
+      </ul>
+    </div>
+    <AdSlot placement="sidebar" />
+  </section>
+</Base>

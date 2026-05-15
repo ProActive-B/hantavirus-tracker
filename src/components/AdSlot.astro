@@ -1,0 +1,16 @@
+---
+// EthicalAds slot. No-op when publisher id is absent so the site renders
+// cleanly in dev and on forks without ad config.
+const publisher = import.meta.env.PUBLIC_ETHICALADS_PUBLISHER;
+const { placement = 'sidebar' } = Astro.props as { placement?: 'sidebar' | 'footer' };
+---
+{publisher ? (
+  <aside class="ad-slot rounded-md border border-ink/10 bg-white p-3 text-xs text-ink/60">
+    <div
+      data-ea-publisher={publisher}
+      data-ea-type="image"
+      data-ea-style={placement === 'footer' ? 'horizontal' : 'stickybox'}
+    />
+    <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js" is:inline></script>
+  </aside>
+) : null}

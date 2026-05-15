@@ -1,0 +1,59 @@
+name: daily-ingest
+
+# Runs once a day at 06:17 UTC. The ingest pipeline always writes
+# data/_status.json with a fresh timestamp (and overview/feed/etc all carry
+# generated_at fields), so every successful run produces a non-empty git diff
+# in data/, which is committed and pushed. The push then triggers deploy.yml
+# via its data/** path filter — no manual workflow_dispatch needed.
+#
+# To run on demand: gh workflow run daily-ingest.yml --ref main
+
+on:
+  schedule:
+    - cron: '17 6 * * *'   # 06:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: latest
+
+      - name: install ingest deps
+        run: uv sync
+
+      - name: run ingest
+        # Individual-source failures are tolerated (no --fail-fast); they're
+        # recorded in data/_status.json and surfaced on /about. The pipeline
+        # itself fails only on schema or write-path errors.
+        run: uv run python -m ingest.cli run
+
+      - name: validate schema
+        run: uv run python -m ingest.cli validate
+
+      - name: print status summary
+        run: |
+          jq '{generated_at, total_records, summary, sources: (.sources | map({name, ok, records}))}' data/_status.json
+
+      - name: commit and push
+        run: |
+          if [[ -z "$(git status --porcelain data/)" ]]; then
+            # _status.json should always change generated_at; if we land here
+            # something is genuinely off. Surface it but don't fail the workflow.
+            echo "::warning::data/ unchanged after ingest — status file may not be writing"
+            exit 0
+          fi
+          git config user.name "hantavirus-tracker-bot"
+          git config user.email "bot@hantavirus.example"
+          git add data/
+          git commit -m "data: refresh ingest $(date -u +%Y-%m-%d)"
+          git push
