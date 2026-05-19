@@ -17,7 +17,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write    # commit + push refreshed data/
+  actions: write     # dispatch deploy.yml after a successful push
 
 jobs:
   ingest:
