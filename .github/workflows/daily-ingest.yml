@@ -3,8 +3,11 @@ name: daily-ingest
 # Runs once a day at 06:17 UTC. The ingest pipeline always writes
 # data/_status.json with a fresh timestamp (and overview/feed/etc all carry
 # generated_at fields), so every successful run produces a non-empty git diff
-# in data/, which is committed and pushed. The push then triggers deploy.yml
-# via its data/** path filter — no manual workflow_dispatch needed.
+# in data/, which is committed and pushed.
+#
+# IMPORTANT: a push made by GITHUB_TOKEN does NOT trigger downstream workflows
+# (GitHub's anti-loop policy). So we explicitly dispatch deploy.yml after a
+# successful push — without that line the site never rebuilds from a cron run.
 #
 # To run on demand: gh workflow run daily-ingest.yml --ref main
 
@@ -45,11 +48,13 @@ jobs:
           jq '{generated_at, total_records, summary, sources: (.sources | map({name, ok, records}))}' data/_status.json
 
       - name: commit and push
+        id: commit
         run: |
           if [[ -z "$(git status --porcelain data/)" ]]; then
             # _status.json should always change generated_at; if we land here
             # something is genuinely off. Surface it but don't fail the workflow.
             echo "::warning::data/ unchanged after ingest — status file may not be writing"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "hantavirus-tracker-bot"
@@ -57,3 +62,10 @@ jobs:
           git add data/
           git commit -m "data: refresh ingest $(date -u +%Y-%m-%d)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: trigger deploy
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
