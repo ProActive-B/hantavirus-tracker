@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-28T10:34:11.839316+00:00",
+  "generated_at": "2026-05-29T10:14:26.276579+00:00",
   "current": {
     "label": "2026 Andes-virus cruise cluster",
-    "as_of": "2026-05-13",
-    "today": "2026-05-28",
-    "days_since_source_update": 15,
+    "as_of": "2026-05-27",
+    "today": "2026-05-29",
+    "days_since_source_update": 2,
     "parsed_from_live_source": true,
-    "confirmed_cases": 8,
-    "suspected_cases": 3,
-    "total_cases": 11,
+    "confirmed_cases": 11,
+    "suspected_cases": 2,
+    "total_cases": 13,
     "deaths": 3,
     "exposed_population": 147,
     "passengers": 86,
@@ -28,10 +28,10 @@
       "location": "Las Palmas, Canary Islands",
       "date": "2026-05-07"
     },
-    "days_since_departure": 57,
-    "voyage_duration_to_disclosure": 42,
-    "attack_rate_pct": 7.48,
-    "cfr_pct": 27.3,
+    "days_since_departure": 58,
+    "voyage_duration_to_disclosure": 56,
+    "attack_rate_pct": 8.84,
+    "cfr_pct": 23.1,
     "virus": "Andes virus",
     "source_name": "CDC HAN 528",
     "source_url": "https://www.cdc.gov/han/php/notices/han00528.html"
@@ -57,17 +57,17 @@
     },
     {
       "metric": "Confirmed cases",
-      "current": "8",
+      "current": "11",
       "diamond_princess": "712"
     },
     {
       "metric": "Suspected / additional",
-      "current": "3",
+      "current": "2",
       "diamond_princess": "n/a (all PCR-tested)"
     },
     {
       "metric": "Attack rate",
-      "current": "7.48%",
+      "current": "8.84%",
       "diamond_princess": "19.2%"
     },
     {
@@ -77,12 +77,12 @@
     },
     {
       "metric": "Case fatality rate",
-      "current": "27.3%",
+      "current": "23.1%",
       "diamond_princess": "2.0%"
     },
     {
       "metric": "Voyage duration to public disclosure",
-      "current": "42 days (departure \u2192 HAN as-of)",
+      "current": "56 days (departure \u2192 HAN as-of)",
       "diamond_princess": "~24 days (quarantine onboard)"
     },
     {
