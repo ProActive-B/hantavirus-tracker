@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated_at": "2026-05-29T10:14:25.527009+00:00",
+    "generated_at": "2026-05-30T08:40:52.531610+00:00",
     "count": 2,
-    "total_records": 36
+    "total_records": 37
   },
   "features": [
     {
@@ -24,7 +24,7 @@
         "deaths": 3,
         "confidence": "confirmed",
         "reported": "2026-05-27",
-        "ingested_at": "2026-05-29T10:14:07.704581+00:00",
+        "ingested_at": "2026-05-30T08:40:33.372427+00:00",
         "source_name": "WHO Disease Outbreak News (2026-DON604)",
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604",
         "summary": "11 confirmed and 2 probable/inconclusive Andes-virus cases on the MV Hondius, departed Ushuaia, Argentina on 2026-04-01 with stops in Antarctica, South Georgia Island, Tristan da Cunha, Saint Helena, Ascension Island. CDC met the ship at Las Palmas, Canary Islands on 2026-05-07. 3 deaths reported. Andes virus is the only hantavirus with documented person-to-person transmission."
@@ -48,7 +48,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2026-05-08",
-        "ingested_at": "2026-05-29T10:14:24.538399+00:00",
+        "ingested_at": "2026-05-30T08:40:51.478210+00:00",
         "source_name": "Argentina BEN SE-17/2026",
         "source_url": "https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-17",
         "summary": "Argentina BEN: 102 confirmed hantavirus cases for the 2025-2026 season through SE 17 of 2026 (frozen snapshot \u2014 live parse unavailable this run). Regional: Centro region 54% (Buenos Aires Province 43); NOA 36 cases (Salta 83%)."
