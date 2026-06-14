@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-13T07:35:12.379338+00:00",
+  "generated_at": "2026-06-14T07:53:37.674922+00:00",
   "current": {
     "label": "2026 Andes-virus cruise cluster",
     "as_of": "2026-05-27",
-    "today": "2026-06-13",
-    "days_since_source_update": 17,
+    "today": "2026-06-14",
+    "days_since_source_update": 18,
     "parsed_from_live_source": true,
     "confirmed_cases": 11,
     "suspected_cases": 2,
@@ -28,7 +28,7 @@
       "location": "Las Palmas, Canary Islands",
       "date": "2026-05-07"
     },
-    "days_since_departure": 73,
+    "days_since_departure": 74,
     "voyage_duration_to_disclosure": 56,
     "attack_rate_pct": 8.84,
     "cfr_pct": 23.1,
