@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-02T07:26:44.362400+00:00",
+  "generated_at": "2026-07-03T07:24:56.017096+00:00",
   "current": {
     "label": "2026 Andes-virus cruise cluster",
-    "as_of": "2026-05-27",
-    "today": "2026-07-02",
-    "days_since_source_update": 36,
+    "as_of": "2026-07-02",
+    "today": "2026-07-03",
+    "days_since_source_update": 1,
     "parsed_from_live_source": true,
-    "confirmed_cases": 11,
-    "suspected_cases": 2,
+    "confirmed_cases": 12,
+    "suspected_cases": 1,
     "total_cases": 13,
     "deaths": 3,
     "exposed_population": 147,
@@ -28,8 +28,8 @@
       "location": "Las Palmas, Canary Islands",
       "date": "2026-05-07"
     },
-    "days_since_departure": 92,
-    "voyage_duration_to_disclosure": 56,
+    "days_since_departure": 93,
+    "voyage_duration_to_disclosure": 92,
     "attack_rate_pct": 8.84,
     "cfr_pct": 23.1,
     "virus": "Andes virus",
@@ -57,12 +57,12 @@
     },
     {
       "metric": "Confirmed cases",
-      "current": "11",
+      "current": "12",
       "diamond_princess": "712"
     },
     {
       "metric": "Suspected / additional",
-      "current": "2",
+      "current": "1",
       "diamond_princess": "n/a (all PCR-tested)"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "metric": "Voyage duration to public disclosure",
-      "current": "56 days (departure \u2192 HAN as-of)",
+      "current": "92 days (departure \u2192 HAN as-of)",
       "diamond_princess": "~24 days (quarantine onboard)"
     },
     {
