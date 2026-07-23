@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated_at": "2026-07-22T07:10:18.011374+00:00",
-    "count": 23,
-    "total_records": 59
+    "generated_at": "2026-07-23T07:08:56.519859+00:00",
+    "count": 24,
+    "total_records": 60
   },
   "features": [
     {
@@ -16,18 +16,18 @@
         ]
       },
       "properties": {
-        "id": "c3e55b4b7205",
-        "title": "Maine \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "35e072feb493",
+        "title": "Maine \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Maine, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Maine to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Maine to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -40,18 +40,18 @@
         ]
       },
       "properties": {
-        "id": "d184b8ec6be1",
-        "title": "New York \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "b09a7e41b212",
+        "title": "New York \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "New York, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by New York to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by New York to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -64,18 +64,18 @@
         ]
       },
       "properties": {
-        "id": "c7fef7985a92",
-        "title": "Iowa \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "72c6c765e637",
+        "title": "Iowa \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Iowa, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Iowa to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Iowa to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -88,18 +88,42 @@
         ]
       },
       "properties": {
-        "id": "8781b3a12f91",
-        "title": "Colorado \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "25324e2f55a9",
+        "title": "Colorado \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Colorado, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Colorado to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Colorado to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.478828,
+          44.240459
+        ]
+      },
+      "properties": {
+        "id": "a8a821d78b26",
+        "title": "Idaho \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
+        "location": "Idaho, USA (state aggregate)",
+        "virus": "Sin Nombre virus",
+        "cases": 1,
+        "deaths": null,
+        "confidence": "confirmed",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
+        "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
+        "summary": "1 hantavirus pulmonary syndrome case reported by Idaho to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -112,18 +136,18 @@
         ]
       },
       "properties": {
-        "id": "4685582f108b",
-        "title": "Montana \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "0a171ebfb6ae",
+        "title": "Montana \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Montana, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Montana to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Montana to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -136,18 +160,18 @@
         ]
       },
       "properties": {
-        "id": "0b436386ffe0",
-        "title": "Nevada \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "95e396e55bbc",
+        "title": "Nevada \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Nevada, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Nevada to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Nevada to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -160,18 +184,18 @@
         ]
       },
       "properties": {
-        "id": "a8267b80beeb",
-        "title": "New Mexico \u2014 2 HPS cases (CDC NNDSS, 2026 through wk 27)",
+        "id": "ed20b85c05cd",
+        "title": "New Mexico \u2014 2 HPS cases (CDC NNDSS, 2026 through wk 28)",
         "location": "New Mexico, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 2,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "2 hantavirus pulmonary syndrome cases reported by New Mexico to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "2 hantavirus pulmonary syndrome cases reported by New Mexico to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -184,18 +208,18 @@
         ]
       },
       "properties": {
-        "id": "40d43be49a13",
-        "title": "Oregon \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "968eca2e8513",
+        "title": "Oregon \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Oregon, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Oregon to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Oregon to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -208,18 +232,18 @@
         ]
       },
       "properties": {
-        "id": "96ce5fe309eb",
-        "title": "Washington \u2014 1 HPS case (CDC NNDSS, 2026 through wk 27)",
+        "id": "640a4d3f6950",
+        "title": "Washington \u2014 1 HPS case (CDC NNDSS, 2026 through wk 28)",
         "location": "Washington, USA (state aggregate)",
         "virus": "Sin Nombre virus",
         "cases": 1,
         "deaths": null,
         "confidence": "confirmed",
-        "reported": "2026-07-04",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
-        "source_name": "CDC NNDSS Weekly Data (2026 wk 27)",
+        "reported": "2026-07-11",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
+        "source_name": "CDC NNDSS Weekly Data (2026 wk 28)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
-        "summary": "1 hantavirus pulmonary syndrome case reported by Washington to CDC NNDSS, year-to-date through MMWR week 27 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
+        "summary": "1 hantavirus pulmonary syndrome case reported by Washington to CDC NNDSS, year-to-date through MMWR week 28 of 2026. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
       }
     },
     {
@@ -240,7 +264,7 @@
         "deaths": 3,
         "confidence": "confirmed",
         "reported": "2026-07-02",
-        "ingested_at": "2026-07-22T07:10:12.286446+00:00",
+        "ingested_at": "2026-07-23T07:08:49.819395+00:00",
         "source_name": "WHO Disease Outbreak News (2026-DON611)",
         "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611",
         "summary": "12 confirmed and 1 probable/inconclusive Andes-virus cases on the MV Hondius, departed Ushuaia, Argentina on 2026-04-01 with stops in Antarctica, South Georgia Island, Tristan da Cunha, Saint Helena, Ascension Island. CDC met the ship at Las Palmas, Canary Islands on 2026-05-07. 3 deaths reported. Andes virus is the only hantavirus with documented person-to-person transmission."
@@ -264,7 +288,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2026-05-08",
-        "ingested_at": "2026-07-22T07:10:17.223140+00:00",
+        "ingested_at": "2026-07-23T07:08:55.438975+00:00",
         "source_name": "Argentina BEN SE-17/2026",
         "source_url": "https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-17",
         "summary": "Argentina BEN: 102 confirmed hantavirus cases for the 2025-2026 season through SE 17 of 2026 (frozen snapshot \u2014 live parse unavailable this run). Regional: Centro region 54% (Buenos Aires Province 43); NOA 36 cases (Salta 83%)."
@@ -288,7 +312,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Maine to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -312,7 +336,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Illinois to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -336,7 +360,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by West Virginia to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -360,7 +384,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Kentucky to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -384,7 +408,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Arizona to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -408,7 +432,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Colorado to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -432,7 +456,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Idaho to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -456,7 +480,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Nevada to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -480,7 +504,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "2 hantavirus pulmonary syndrome cases reported by New Mexico to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -504,7 +528,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "2 hantavirus pulmonary syndrome cases reported by California to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -528,7 +552,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Oregon to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
@@ -552,7 +576,7 @@
         "deaths": null,
         "confidence": "confirmed",
         "reported": "2025-12-31",
-        "ingested_at": "2026-07-22T07:10:13.360758+00:00",
+        "ingested_at": "2026-07-23T07:08:51.255171+00:00",
         "source_name": "CDC NNDSS Weekly Data (2025 wk 53)",
         "source_url": "https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc",
         "summary": "1 hantavirus pulmonary syndrome case reported by Washington to CDC NNDSS, year-to-date through MMWR week 53 of 2025. State-centroid placement; CDC withholds sub-state hantavirus data for patient privacy."
