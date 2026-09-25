@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T06:41:57.341138+00:00",
-  "active": 2,
-  "cases_90d": 13,
+  "generated_at": "2026-09-25T06:42:35.238756+00:00",
+  "active": 13,
+  "cases_90d": 25,
   "deaths_90d": 3,
   "lead_outbreak": {
     "id": "6e50ee96e63c",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T06:41:59.749600+00:00",
-  "total_records": 34,
-  "duration_s": 28.27,
+  "generated_at": "2026-09-25T06:42:36.085454+00:00",
+  "total_records": 57,
+  "duration_s": 20.5,
   "sources": [
     {
       "name": "seed",
@@ -14,28 +14,28 @@
       "name": "cruise_outbreak",
       "ok": true,
       "records": 1,
-      "duration_s": 3.54,
+      "duration_s": 3.23,
       "error": null
     },
     {
       "name": "who_event",
       "ok": true,
       "records": 5,
-      "duration_s": 1.96,
+      "duration_s": 1.33,
       "error": null
     },
     {
       "name": "nndss",
-      "ok": false,
-      "records": 0,
-      "duration_s": 15.93,
-      "error": "The read operation timed out"
+      "ok": true,
+      "records": 23,
+      "duration_s": 9.73,
+      "error": null
     },
     {
       "name": "argentina",
       "ok": true,
       "records": 1,
-      "duration_s": 3.03,
+      "duration_s": 3.9,
       "error": null
     },
     {
@@ -63,7 +63,7 @@
       "name": "ecdc",
       "ok": true,
       "records": 0,
-      "duration_s": 0.69,
+      "duration_s": 0.41,
       "error": null
     },
     {
@@ -84,7 +84,7 @@
       "name": "pubmed",
       "ok": true,
       "records": 25,
-      "duration_s": 0.72,
+      "duration_s": 1.06,
       "error": null
     },
     {
@@ -96,8 +96,8 @@
     }
   ],
   "summary": {
-    "ok": 12,
-    "failed": 1,
-    "records_total": 34
+    "ok": 13,
+    "failed": 0,
+    "records_total": 57
   }
 }
