@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T06:44:16.270698+00:00",
-  "active": 13,
-  "cases_90d": 25,
-  "deaths_90d": 3,
+  "generated_at": "2026-10-01T06:45:40.723059+00:00",
+  "active": 2,
+  "cases_90d": 0,
+  "deaths_90d": 0,
   "lead_outbreak": {
     "id": "6e50ee96e63c",
     "title": "Andes-virus cluster \u2014 MV Hondius cruise (South Atlantic), multi-country",
